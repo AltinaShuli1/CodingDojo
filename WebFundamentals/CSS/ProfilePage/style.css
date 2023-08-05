@@ -1,0 +1,141 @@
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0  
+}
+/*ketu nis kodi i ri */
+body{
+    width: 100%;
+    height: 100%;
+}
+.nav{ 
+    background-color: black;
+    display: flex;
+    justify-content:  center;
+    padding: 20px 40px;
+    align-items: center;
+}
+.links{ 
+    text-decoration: none;
+    padding: 0px 40px;
+    color: blanchedalmond;
+}
+.button{
+    background-color: aqua;
+    box-shadow: 10px rgb(133, 124, 124);
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.size{
+    font-size: 40px;
+    font-weight: bold;
+    margin:0px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    padding: 10px 200px;
+    
+}
+.block{
+    display: block;
+    justify-content: space-between;
+}
+.border{
+    border: 3px solid gray ;
+
+}
+.backgroundblu{
+    background-color: rgb(93, 134, 194);
+    padding: 30px;
+    margin: 0px;
+}
+.radius{
+    border-radius: 50%;
+}
+.icons{
+    width: 20px;
+}
+.inline{
+    display: inline;
+}
+.firstblock{
+    width:500px ;
+    
+}
+.img{
+    margin-top:-50px;
+    height: 100px;
+    width: 100px;
+}
+.padding{
+    padding:5px;
+}
+.backgroundgray{
+    background-color: rgb(138, 130, 130);
+}
+.education{
+    margin:30px 0px;
+}
+.second{
+    margin-left: 50px;
+    width: 300px;
+}
+.yourconnections{
+    margin: 20px 0px;
+}
+.lightgray{
+    background-color: lightgrey;
+}
+.images{
+    height: 50px;
+    width: 50px;
+}
+.nospaceflex{
+    display: flex;
+}
+.paddingleft{
+    padding-left: 30px;
+}
+.padding20{
+    padding: 20px;
+}
+.header{
+    padding: 2%;
+    color: white;
+    
+}

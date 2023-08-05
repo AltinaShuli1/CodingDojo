@@ -1,0 +1,67 @@
+body{
+    display: block;
+    margin: 0px;
+}
+.nav{
+    background-color: rgb(128, 177, 233);
+    color: white;
+    width: 100%;
+    font-size: larger;
+    margin-bottom: 10px;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block1{
+    width: 80%;
+    border-bottom: 2px solid gray;
+    margin: 0 auto;
+}
+.block2 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.red{
+    color: red;
+}
+.blue{
+    color:rgb(42, 86, 207)
+}
+.TheDay{
+    width: 20%;
+    background-color: rgb(214, 212, 212);
+    padding: 10px;
+    
+}
+.temp{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    border-radius: 50%;
+    width: 100%;
+}
+.cookie{
+    width:auto;
+}
+.block3{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(177, 173, 173);
+}
+.btn{
+    padding: 5px;
+    margin: 10px 50px;
+    background-color: aqua;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <title> registration form </title>
+    </head>
+    <body> 
+        <h1>Registration Form</h1>
+        <form>
+        <div>
+            <label>First Name:* </label>
+            <input type="text" name="Name" >
+        </div>
+        <div>
+            <label> Last Name:* </label>
+            <input type="text" name="name" >
+        </div>
+        <div>
+            <label>Email Address:* </label>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <label>Password:*</label>
+            <input type="password" name="pass">
+        </div>
+        <div>
+            <label>Confirm Password:*</label>
+            <input type="password" name="pass">
+        </div>
+        <div>
+            <label>Birthday: </label>
+            <input type="date" name="date">
+        </div>
+        <div>
+            <label>Gender Identity:</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" value="male" id="male">
+            <label>Male</label>
+            <input type="radio" name="gender" value="female" id="male">
+            <label>Female</label>
+            <input type="radio" name="gender" value="nonbinary" id="non">
+            <label>Non-binary</label>
+            <input type="radio" name="gender" value="none" id="none">
+            <label>I prefer not to answer</label>
+        </div>
+        <div>
+            <label>A short description about myself:</label>
+        </div>
+        <div>
+            <textarea name="comment" cols="20" rows="3"></textarea>
+        </div>
+        <div>
+            <label>Favorite Language:</label>
+            <select name="language">
+                <option value="c">Javascript</option>
+                <option value="c#">C# language</option>
+                <Option value="Java">C language</Option>
+                <option value="python">Python</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="checkbox" id="check">
+            <label>Yes , I would like to recive email updates</label>
+        </div>
+            <input type="submit" value="Create Account">
+            
+        
+        </form>
+        <label>*Indicates a required field</label>
+    </body>
+    </html>

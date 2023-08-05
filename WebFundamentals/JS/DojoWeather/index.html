@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav class="nav flex" >
+        <h1>DojoWeather</h1>
+        <p onclick="cityClicked(0)" id="0">Burgank</p>
+        <p onclick="cityClicked(1)" id="1">Chicago</p>
+        <p onclick="cityClicked(2)" id="2">Dallas</p>
+    </nav>
+    <main>
+        <div class="block1 flex">
+            <h2>San Jose</h2>
+            <form>
+                <label for="select">Show temperature in </label>
+                <select name="temp" id="temp" oninput="changeGrade()">
+                    <option value="C">C</option>
+                    <option value="F">F</option>
+                </select>
+            </form>
+        </div>
+        <div class="block2">
+                <div class="TheDay">
+                    <p>Today</p>
+                    <img src="assets\some_rain.png" alt="rain" class="img">
+                    <p>some rain</p>
+                    <div class="temp">
+                        <p class="red">21°C</p>
+                        <p class="blue">18°C</p>
+                    </div>
+                </div>
+                <div class="TheDay">
+                    <p>Tomorrow</p>
+                    <img src="assets\some_sun.png" alt="sun" class="img">
+                    <p>some rain</p>
+                    <div class="temp">
+                        <p class="red">21<span class="gr">°C</span></p>
+                        <p class="blue">18<span class="gr">°C</span></p>
+                    </div>
+                </div>
+                <div class="TheDay">
+                    <p>Friday</p>
+                    <img src="assets\some_rain.png" alt="rain" class="img">
+                    <p>some rain</p>
+                    <div class="temp">
+                        <p class="red">21<span class="gr">°C</span></p>
+                        <p class="blue">18<span class="gr">°C</span></p>
+                    </div>
+                </div>
+                <div class="TheDay">
+                    <p>Saturday</p> 
+                    <img src="assets\some_rain.png" alt="rain" class="img">
+                    <p>some rain</p>
+                    <div class="temp">
+                        <p class="red">21<span class="gr">°C</span></p>
+                        <p class="blue">18<span class="gr">°C</span></p>
+                    </div>
+                </div>
+        </div>
+        <div class="block3">
+            <img src="assets\cookie.png" alt="cookie" class="cookie">
+            <p>Stop!Cookie time . 
+                we use cookies to pers
+            ajhcbdjscnd</p>
+            <button class="btn" onclick="dismis()">I Accept</button>
+            
+        </div>
+    </main>
+</body>
+
+</html>

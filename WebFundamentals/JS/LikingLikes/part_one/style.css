@@ -1,0 +1,21 @@
+.main{
+    width: 100%;
+    height: 100%;
+}
+.block{
+    margin: 20px;
+    background-color: rgb(159, 180, 173);
+    width: 40%;
+    padding: 10px 20px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width:60px;
+    background-color: rgb(109, 157, 228);
+    color: white;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 2px ;
+}

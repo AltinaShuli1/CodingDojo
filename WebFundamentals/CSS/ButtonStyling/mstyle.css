@@ -1,0 +1,35 @@
+#button1 {
+    color:rgb(9, 236, 236);
+    border-color: rgb(9, 231, 231);
+    margin: 10px 25px;
+    padding:5px 30px;
+    border-radius: 10cqmin ;
+    height: 25px 25px;
+    font-size: 16px ;
+    
+}
+#button2{
+    color:white;
+    background-color: aqua;
+    border-radius: 50%;
+    height: 25px 25px;
+    width: 30px;
+    margin: 0px 25px;
+    padding: 5px;
+
+    border: none;
+    
+}
+#button3 {
+   
+        background-color: #434ee7; 
+        border-color : black;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px 25px;
+        box-shadow:5px 15px 10px 0px black  ;
+      }
+    }

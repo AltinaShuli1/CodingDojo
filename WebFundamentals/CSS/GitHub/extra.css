@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: gray;
+    padding: 10px;
+    margin: 5px;
+}
+#firstBlock { 
+    background-color: aqua;
+    margin: 5px;
+    padding: 5x;
+    height: 200px;
+    width: 1000px;
+    display: inline-block;
+}
+#firstIMG, #secondIMG, #thirdIMG , #movingIMG, #forthIMG , #thirdrow ,#fifthIMG, #sixthIMG, #lastImg {
+    padding: 10px 25px;
+    margin: 40px;
+    width: 15% ;
+    justify-content: center;
+}
+#secondBlock { 
+    background-color: rosybrown;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    height: 200px;
+    width: 1000px;
+}

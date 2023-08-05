@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="extra.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <h1 class="title">Dojonary</h1>
+        <input type="text" placeholder="search" id="searchb">
+        <button value="LogIn" onclick="logOut(this)" class="button" id="button">LogIn</button>
+    </nav>
+    <main class="parent">
+        <div class="top">
+            <div class="leftchild">
+                <div class="box1">
+                    <div class="firstleft">
+                        <h2>Ninja</h2>
+                        <p>noun</p>
+                        <p>Prural: <span class="cursive"> ninjas </span> .</p>
+                        <button class="likebutton" value="13 likes" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="firstright ">
+                        <p>A practioner skilled in the <a href="#Japanese">Japanese</a> art of <a
+                                href="#ninjutsu">ninjutsu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightchild">
+                <div class="content">
+                    <p>Dojonary is defined by <span class="bold"> YOU </span></p>
+                    <button value="Add Definition" class="defbutton" onclick="removeButton(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+        <div class="leftchild">
+            <div class="box1">
+                <div class="firstleft">
+                    <h2>Ninja</h2>
+                    <p>noun</p>
+                    <p>Prural: <span class="cursive"> ninjas </span> .</p>
+                    <button class="likebutton" value="13 likes">13 likes</button>
+                </div>
+                <div class="firstright ">
+                    <p>A practioner skilled in the <a href="#Japanese">Japanese</a> art of <a
+                            href="#ninjutsu">ninjutsu</a></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
