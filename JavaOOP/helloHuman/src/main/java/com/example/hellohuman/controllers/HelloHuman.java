@@ -1,5 +1,6 @@
 package com.example.hellohuman.controllers;
 
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -27,6 +28,12 @@ public class HelloHuman {
         }
         return "Hello human ";
     }
+
+    @RequestMapping("/m/{courseid}/{modulid}")
+    public String course  (@PathVariable("courseid") String courseid, @PathVariable("modulid") String modulid){
+        return "Course : " + courseid + "Modul : " + modulid ;
+    }
+
 }
 
 
